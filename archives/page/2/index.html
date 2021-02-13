@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="propeller" content="3672f6e76d48dd2c5ccdd43a3a2aa9be">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jel.ink/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jel.ink/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jel.ink/images/favicon-16x16.png">
+    <link rel="manifest" href="https://jel.ink/images/site.webmanifest">
+
+    <meta name="title" content="">
+    <meta name="description" content="">
+    <meta name="image" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content="">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="">
+
+  	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WNL90MFSH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0WNL90MFSH');
+    </script>
+	   <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+     <script>
+        $(document).ready(function(){
+          $("#btn").click(function(){
+            $("#navmob").toggle();
+          });
+        });
+      </script>
+
+	<style type="text/css">
+    #post-content img{
+      margin-bottom: 30px
+    }
+		html{
+			font-family: 'Roboto', sans-serif;
+		}
+    .montserrat{
+      font-family: 'Roboto', sans-serif;
+    }
+    span.page-number.current{
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 18px;
+      background-color: #4b5563;
+      color: white;
+      border-radius: 12%;
+      margin-left:4px;
+      margin-right:4px;
+    }
+    a.page-number {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left:4px;
+      margin-right:4px;
+    }
+    a.page-number:hover {
+        background-color: #4b5563;
+      color: white;
+      border-radius: 12%;
+    }
+    .w-100p{
+      width: 100px;
+    }
+    .h-100p{
+      height: 100px;
+    }
+    .w-min-100{
+      min-width: 100px;
+    }
+    .h-min-100{
+      min-height: 100px;
+    }
+	</style>
+  <meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Jelink" type="application/atom+xml">
+</head>	
+  <body>
+
+  	<nav class="flex flex-col bg-gray-900 py-3 md:py-5 mb-4">
+	<div class="w-full md:w-2/3 px-2 md:px-0 md:mb-4 m-auto flex justify-between items-center">
+		<a class="text-white text-2xl montserrat flex flex-col" href="/">
+      <span class="font-bold">Jelink</span> 
+      <span class="text-base">News In Brief</span>
+    </a>
+		<ul class="flex">
+			<li class="mx-2 text-white text-lg hidden md:block"><ion-icon name="logo-facebook"></ion-icon></li>
+			<li class="mx-2 text-white text-lg hidden  md:block"><ion-icon name="logo-twitter"></ion-icon></li>
+			<li class="mx-2 text-white text-lg  hidden md:block"><ion-icon name="logo-linkedin"></ion-icon></li>
+			<li class="mx-2 text-white text-lg hidden md:block"><ion-icon name="logo-rss"></ion-icon></li>
+			<li class="mx-2 text-white text-4xl md:hidden" id="btn"><ion-icon name="menu"></ion-icon></li>
+		</ul>
+	</div>
+  	<ul class="w-full md:w-2/3 px-10 md:px-0 m-auto flex-col hidden md:hidden" id="navmob">
+  		<li class="ml-6 text-xl font-medium text-white"><a href="/">Home</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/World" >World</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Politics" >Politics</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Business" class="category">Business</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Technology" class="category">Technology</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Sport" class="category">Sport</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Science" class="category">Science</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Health" class="category">Health</a></li>
+  		
+  	</ul>
+  	<ul class="w-full md:w-2/3 px-10 md:px-0 m-auto hidden md:flex">
+  		<li class="text-xl font-medium text-white"><a href="/">Home</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/World" >World</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Politics" >Politics</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Business" class="category">Business</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Technology" class="category">Technology</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Sport" class="category">Sport</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Science" class="category">Science</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Health" class="category">Health</a></li>
+  	</ul>
+  	
+</nav>
+  	<div class="flex flex-wrap content-start w-full md:w-2/3 px-6 md:px-0 m-auto min-h-screen mt-10">
+  		
+
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/08/elon-musk-carbon-capture_wide-ad61ec5aa4b9c86c183c9bdb76d633b191a17075.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Elon-Musk-Funds-100-Million-XPrize-For-Pursuit-Of-New-Carbon-Removal-Ideas/">Elon Musk Funds 100 Million XPrize For Pursuit Of New Carbon Removal Ideas</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Elon Musk Funds 100 Million XPrize For Pursuit Of New Carbon Removal Ideas&url=http://jel.ink/2021/02/12/2021-2-12-Elon-Musk-Funds-100-Million-XPrize-For-Pursuit-Of-New-Carbon-Removal-Ideas/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/09/leo_tricera_wide-223571ce4c8dffd6ee71738ef3af4e5ef8f80652.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-8-Year-Old-Calls-Out-NPR-For-Lack-Of-Dinosaur-Stories/">8 Year Old Calls Out NPR For Lack Of Dinosaur Stories</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=8 Year Old Calls Out NPR For Lack Of Dinosaur Stories&url=http://jel.ink/2021/02/12/2021-2-12-8-Year-Old-Calls-Out-NPR-For-Lack-Of-Dinosaur-Stories/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/01/22/gettyimages-1209801021_wide-e87e4bdad6ea574cde8f273a3fc6561ba1fe394a.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Why-500-000-COVID-19-Deaths-May-Not-Feel-Any-Different-Short-Wave/">Why 500 000 COVID 19 Deaths May Not Feel Any Different Short Wave</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Why 500 000 COVID 19 Deaths May Not Feel Any Different Short Wave&url=http://jel.ink/2021/02/12/2021-2-12-Why-500-000-COVID-19-Deaths-May-Not-Feel-Any-Different-Short-Wave/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/gettyimages-1230810932_wide-17be834277154e6f4597484df53697555e76b027.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Short-On-Special-Syringes-Japan-May-Waste-Millions-Of-Pfizer-Vaccine-Doses/">Short On Special Syringes Japan May Waste Millions Of Pfizer Vaccine Doses</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Short On Special Syringes Japan May Waste Millions Of Pfizer Vaccine Doses&url=http://jel.ink/2021/02/12/2021-2-12-Short-On-Special-Syringes-Japan-May-Waste-Millions-Of-Pfizer-Vaccine-Doses/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/09/gettyimages-1228113416_wide-6baf6c468c4ccd4d3658385754b4f31842a2af46.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-When-Defending-The-Land-Puts-Your-Own-Life-At-Risk-Short-Wave/">When Defending The Land Puts Your Own Life At Risk Short Wave</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=When Defending The Land Puts Your Own Life At Risk Short Wave&url=http://jel.ink/2021/02/12/2021-2-12-When-Defending-The-Land-Puts-Your-Own-Life-At-Risk-Short-Wave/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/gettyimages-90307513_wide-aab193b480da6cb760aeac93598484b95688b0cc.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Birds-Chocolate-Scorpions-Happy-Valentine-s-Day-Short-Wave/">Birds Chocolate Scorpions Happy Valentine s Day Short Wave</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Birds Chocolate Scorpions Happy Valentine s Day Short Wave&url=http://jel.ink/2021/02/12/2021-2-12-Birds-Chocolate-Scorpions-Happy-Valentine-s-Day-Short-Wave/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/10/01_example_chart_1930_wide-3337b8270c3c0fe286d9a132ba1018a558ec7004.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Saving-Sea-Level-Records-What-Historical-Records-Tell-Us-About-The-Rising-Ocean-Short-Wave/">Saving Sea Level Records What Historical Records Tell Us About The Rising Ocean Short Wave</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Saving Sea Level Records What Historical Records Tell Us About The Rising Ocean Short Wave&url=http://jel.ink/2021/02/12/2021-2-12-Saving-Sea-Level-Records-What-Historical-Records-Tell-Us-About-The-Rising-Ocean-Short-Wave/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/10/neanderthal_ucsandiegopublications_erikjepsen_wide-ed2497d5bb60ab22e5e20b23b2c353f22e370d0f.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12--Minibrains-With-A-Neanderthal-Gene-Offer-Hints-About-Human-Evolution/">Minibrains With A Neanderthal Gene Offer Hints About Human Evolution</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Minibrains With A Neanderthal Gene Offer Hints About Human Evolution&url=http://jel.ink/2021/02/12/2021-2-12--Minibrains-With-A-Neanderthal-Gene-Offer-Hints-About-Human-Evolution/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/03/gettyimages-1036084450_wide-ca613c5d460cfa88a2918851f2513a49872ca3a2.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Jeff-Bezos-To-Step-Down-As-Amazon-s-CEO-/">Jeff Bezos To Step Down As Amazon s CEO</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Jeff Bezos To Step Down As Amazon s CEO&url=http://jel.ink/2021/02/12/2021-2-12-Jeff-Bezos-To-Step-Down-As-Amazon-s-CEO-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/03/gettyimages-1230247440_wide-7d2b6471b5b1ebd851fffbacdfecc00d4713bd15.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Parler-CEO-Is-Fired-After-Constant-Resistance-Inside-The-Conservative-Friendly-Site/">Parler CEO Is Fired After Constant Resistance Inside The Conservative Friendly Site</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Parler CEO Is Fired After Constant Resistance Inside The Conservative Friendly Site&url=http://jel.ink/2021/02/12/2021-2-12-Parler-CEO-Is-Fired-After-Constant-Resistance-Inside-The-Conservative-Friendly-Site/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/03/46198097841_303b90096a_k_wide-2fa38bc31d2bc8f078a83983b9a156ad3882ad14.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Robinhood-s-Very-Bad-Day-Planet-Money/">Robinhood s Very Bad Day Planet Money</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Robinhood s Very Bad Day Planet Money&url=http://jel.ink/2021/02/12/2021-2-12-Robinhood-s-Very-Bad-Day-Planet-Money/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/03/gettyimages-12303594661_wide-d4ce070d8c7299e7e7414b67b9689ea0b21ac4df.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12--Just-Cruel-Digital-Race-For-COVID-19-Vaccines-Leaves-Many-Seniors-Behind/">Just Cruel Digital Race For COVID 19 Vaccines Leaves Many Seniors Behind</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Just Cruel Digital Race For COVID 19 Vaccines Leaves Many Seniors Behind&url=http://jel.ink/2021/02/12/2021-2-12--Just-Cruel-Digital-Race-For-COVID-19-Vaccines-Leaves-Many-Seniors-Behind/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/04/gettyimages-1146136684_wide-490a92065e9d220a5dfb92cb7b2fbd7c2041848f.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Ken-Griffin-The-Hedge-Fund-Titan-In-The-Middle-Of-The-Reddit-Investing-Revolt/">Ken Griffin The Hedge Fund Titan In The Middle Of The Reddit Investing Revolt</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Ken Griffin The Hedge Fund Titan In The Middle Of The Reddit Investing Revolt&url=http://jel.ink/2021/02/12/2021-2-12-Ken-Griffin-The-Hedge-Fund-Titan-In-The-Middle-Of-The-Reddit-Investing-Revolt/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/04/nagincox_2016x-embed_wide-f42ec56ca74259d3c162a7df8e693bf45333b850.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Nagin-Cox-What-Does-Time-On-Mars-Teach-Us-About-Time-On-Earth-/">Nagin Cox What Does Time On Mars Teach Us About Time On Earth</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Nagin Cox What Does Time On Mars Teach Us About Time On Earth&url=http://jel.ink/2021/02/12/2021-2-12-Nagin-Cox-What-Does-Time-On-Mars-Teach-Us-About-Time-On-Earth-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/03/gettyimages-1294712308_wide-a3a18ce51e608a670582590c932195ed4a6e158c.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Why-QAnon-Survives-After-Trump/">Why QAnon Survives After Trump</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Why QAnon Survives After Trump&url=http://jel.ink/2021/02/12/2021-2-12-Why-QAnon-Survives-After-Trump/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/07/gettyimages-1208650188_wide-7fd7b3907e99ae7883e665303dba31fbfecc09d2.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-In-Alabama-Workers-At-Amazon-Warehouse-Are-Poised-For-Union-Vote/">In Alabama Workers At Amazon Warehouse Are Poised For Union Vote</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=In Alabama Workers At Amazon Warehouse Are Poised For Union Vote&url=http://jel.ink/2021/02/12/2021-2-12-In-Alabama-Workers-At-Amazon-Warehouse-Are-Poised-For-Union-Vote/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/06/gettyimages-1300658955_wide-706c09bec9c24052c4c0d181b1ceb82bc96b33db.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Myanmar-Blocks-Facebook-Twitter-As-Anti-Coup-Protests-Grow/">Myanmar Blocks Facebook Twitter As Anti Coup Protests Grow</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Myanmar Blocks Facebook Twitter As Anti Coup Protests Grow&url=http://jel.ink/2021/02/12/2021-2-12-Myanmar-Blocks-Facebook-Twitter-As-Anti-Coup-Protests-Grow/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/08/gettyimages-1231045916_wide-249bb7865d80b549718594dfe33152deb6195d0f.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Facebook-Widens-Ban-On-COVID-19-Vaccine-Misinformation-In-Push-To-Boost-Confidence/">Facebook Widens Ban On COVID 19 Vaccine Misinformation In Push To Boost Confidence</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Facebook Widens Ban On COVID 19 Vaccine Misinformation In Push To Boost Confidence&url=http://jel.ink/2021/02/12/2021-2-12-Facebook-Widens-Ban-On-COVID-19-Vaccine-Misinformation-In-Push-To-Boost-Confidence/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/05/gettyimages-1220813982_wide-66ffe812cdd2862e5632f6f04ebdf1ee2b404f06.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-What-s-In-A-Tattoo-Scientists-Are-Looking-For-Answers-Short-Wave/">What s In A Tattoo Scientists Are Looking For Answers Short Wave</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=What s In A Tattoo Scientists Are Looking For Answers Short Wave&url=http://jel.ink/2021/02/12/2021-2-12-What-s-In-A-Tattoo-Scientists-Are-Looking-For-Answers-Short-Wave/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/09/gettyimages-154945668_wide-fb3c1f3571703f19f76a0346d0ed53ec5b768b85.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-FBI-Called-In-After-Hacker-Tries-To-Poison-Tampa-Area-City-s-Water-With-Lye/">FBI Called In After Hacker Tries To Poison Tampa Area City s Water With Lye</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=FBI Called In After Hacker Tries To Poison Tampa Area City s Water With Lye&url=http://jel.ink/2021/02/12/2021-2-12-FBI-Called-In-After-Hacker-Tries-To-Poison-Tampa-Area-City-s-Water-With-Lye/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/09/5g-conspiracy-new_wide-9b18f2bc80aecec3c547a1045338eb1bba265c4a.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-WHO-Is-Fighting-False-COVID-Info-On-Social-Media-How-s-That-Going-/">WHO Is Fighting False COVID Info On Social Media How s That Going</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=WHO Is Fighting False COVID Info On Social Media How s That Going&url=http://jel.ink/2021/02/12/2021-2-12-WHO-Is-Fighting-False-COVID-Info-On-Social-Media-How-s-That-Going-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/02/maryanne-amacher-courtesy-of-peggy-weil_wide-65252ab30c247d21bce2fd9323352b5810b50382.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12--Sisters-With-Transistors-Pioneers-Of-Electronic-Music/">Sisters With Transistors Pioneers Of Electronic Music</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Sisters With Transistors Pioneers Of Electronic Music&url=http://jel.ink/2021/02/12/2021-2-12--Sisters-With-Transistors-Pioneers-Of-Electronic-Music/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/10/gettyimages-1219016960_wide-fc047b92a48b4f7608906d59ade0ae3033843218.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Electronic-Health-Records-May-Be-Delaying-COVID-19-Vaccinations/">Electronic Health Records May Be Delaying COVID 19 Vaccinations</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Electronic Health Records May Be Delaying COVID 19 Vaccinations&url=http://jel.ink/2021/02/12/2021-2-12-Electronic-Health-Records-May-Be-Delaying-COVID-19-Vaccinations/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/10/9781635576061_wide-9e0dacd5f9915eac8767328e2cf94d2e3f27d8c9.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-U-S-Cyber-Weapons-Were-Leaked-And-Are-Now-Being-Used-Against-Us-Reporter-Says/">U S Cyber Weapons Were Leaked And Are Now Being Used Against Us Reporter Says</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=U S Cyber Weapons Were Leaked And Are Now Being Used Against Us Reporter Says&url=http://jel.ink/2021/02/12/2021-2-12-U-S-Cyber-Weapons-Were-Leaked-And-Are-Now-Being-Used-Against-Us-Reporter-Says/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/10/fritz2hr_wide-f413d226e2871f99ab95b9bbc3875657e86d8619.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Why-A-Musician-Breathed-New-Life-Into-A-17-000-Year-Old-Conch-Shell-Horn/">Why A Musician Breathed New Life Into A 17 000 Year Old Conch Shell Horn</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Why A Musician Breathed New Life Into A 17 000 Year Old Conch Shell Horn&url=http://jel.ink/2021/02/12/2021-2-12-Why-A-Musician-Breathed-New-Life-Into-A-17-000-Year-Old-Conch-Shell-Horn/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/robert-kennedy-jr_wide-30affa196cde70838bc724a1a692082d6812e358.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Instagram-Bars-Robert-F-Kennedy-Jr-For-Spreading-Vaccine-Misinformation/">Instagram Bars Robert F Kennedy Jr For Spreading Vaccine Misinformation</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Instagram Bars Robert F Kennedy Jr For Spreading Vaccine Misinformation&url=http://jel.ink/2021/02/12/2021-2-12-Instagram-Bars-Robert-F-Kennedy-Jr-For-Spreading-Vaccine-Misinformation/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/08/gettyimages-51497934_wide-8b0e0f31135d88f1f7443726711ca5b58260cec9.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-The-Power-of-Humor-The-Indicator-from-Planet-Money/">The Power of Humor The Indicator from Planet Money</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The Power of Humor The Indicator from Planet Money&url=http://jel.ink/2021/02/12/2021-2-12-The-Power-of-Humor-The-Indicator-from-Planet-Money/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/08/rob_monster_wide-5e68cb6ef5604cc156c5ac0b5e53fa419e8a8ae9.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12--Lex-Luthor-Of-The-Internet-Meet-The-Man-Keeping-Far-Right-Websites-Alive/">Lex Luthor Of The Internet Meet The Man Keeping Far Right Websites Alive</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Lex Luthor Of The Internet Meet The Man Keeping Far Right Websites Alive&url=http://jel.ink/2021/02/12/2021-2-12--Lex-Luthor-Of-The-Internet-Meet-The-Man-Keeping-Far-Right-Websites-Alive/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/08/gettyimages-143635534_wide-bdf990146b5590889356912ee5b5b4a15e75478c.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12--The-Game-Is-Rigged-How-Fury-Over-The-Great-Recession-Fueled-The-Reddit-Trade-/">The Game Is Rigged How Fury Over The Great Recession Fueled The Reddit Trade</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The Game Is Rigged How Fury Over The Great Recession Fueled The Reddit Trade&url=http://jel.ink/2021/02/12/2021-2-12--The-Game-Is-Rigged-How-Fury-Over-The-Great-Recession-Fueled-The-Reddit-Trade-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/08/wall-street-4847634_1920_wide-442b4b0c0575979dbda81e92d1d66707bc6a5535.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-After-GameStop-A-Better-Way-To-Take-On-Wall-Street-/">After GameStop A Better Way To Take On Wall Street</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=After GameStop A Better Way To Take On Wall Street&url=http://jel.ink/2021/02/12/2021-2-12-After-GameStop-A-Better-Way-To-Take-On-Wall-Street-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+
+
+  <nav id="page-nav" class="w-full text-center mt-8" dir="ltr">
+   <a class="extend prev" rel="prev" href="/archives/">&lt;</a><a class="page-number" href="/archives/">1</a><span class="page-number current">2</span><a class="page-number" href="/archives/page/3/">3</a><a class="page-number" href="/archives/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/7/">7</a><a class="extend next" rel="next" href="/archives/page/3/">&gt;</a>
+  </nav>
+	
+  	</div>
+  	<nav class="flex bg-gray-900 py-6 mt-10">
+	<div class="w-full md:w-2/3 px-10 md:px-0 m-auto flex justify-between items-center">
+		<a class="text-white text-xl font-bold"  href="/">Jelink</a>
+		<ul class="flex">
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-facebook"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-twitter"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-linkedin"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-rss"></ion-icon></li>
+		</ul>
+	</div>
+</nav>
+
+
+
+
+   
+  </body>
+</html>
