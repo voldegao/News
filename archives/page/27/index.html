@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="propeller" content="3672f6e76d48dd2c5ccdd43a3a2aa9be">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jel.ink/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jel.ink/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jel.ink/images/favicon-16x16.png">
+    <link rel="manifest" href="https://jel.ink/images/site.webmanifest">
+
+    <meta name="title" content=" ">
+    <meta name="description" content="">
+    <meta name="image" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content=" ">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content=" ">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="">
+
+  	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WNL90MFSH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0WNL90MFSH');
+    </script>
+	   <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+     <script>
+        $(document).ready(function(){
+          $("#btn").click(function(){
+            $("#navmob").toggle();
+          });
+        });
+      </script>
+
+	<style type="text/css">
+    #post-content img{
+      margin-bottom: 30px
+    }
+		html{
+			font-family: 'Roboto', sans-serif;
+		}
+    .montserrat{
+      font-family: 'Roboto', sans-serif;
+    }
+    span.page-number.current{
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 18px;
+      background-color: #4b5563;
+      color: white;
+      border-radius: 12%;
+      margin-left:4px;
+      margin-right:4px;
+    }
+    a.page-number {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left:4px;
+      margin-right:4px;
+    }
+    a.page-number:hover {
+        background-color: #4b5563;
+      color: white;
+      border-radius: 12%;
+    }
+    .w-100p{
+      width: 100px;
+    }
+    .h-100p{
+      height: 100px;
+    }
+    .w-min-100{
+      min-width: 100px;
+    }
+    .h-min-100{
+      min-height: 100px;
+    }
+	</style>
+  <meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Jelink" type="application/atom+xml">
+</head>	
+  <body>
+
+  	<nav class="flex flex-col bg-gray-900 py-3 md:py-5 mb-4">
+	<div class="w-full md:w-2/3 px-2 md:px-0 md:mb-4 m-auto flex justify-between items-center">
+		<a class="text-white text-2xl montserrat flex flex-col" href="/">
+      <span class="font-bold">Jelink</span> 
+      <span class="text-base">News In Brief</span>
+    </a>
+		<ul class="flex">
+			<li class="mx-2 text-white text-lg hidden md:block"><ion-icon name="logo-facebook"></ion-icon></li>
+			<li class="mx-2 text-white text-lg hidden  md:block"><ion-icon name="logo-twitter"></ion-icon></li>
+			<li class="mx-2 text-white text-lg  hidden md:block"><ion-icon name="logo-linkedin"></ion-icon></li>
+			<li class="mx-2 text-white text-lg hidden md:block"><ion-icon name="logo-rss"></ion-icon></li>
+			<li class="mx-2 text-white text-4xl md:hidden" id="btn"><ion-icon name="menu"></ion-icon></li>
+		</ul>
+	</div>
+  	<ul class="w-full md:w-2/3 px-10 md:px-0 m-auto flex-col hidden md:hidden" id="navmob">
+  		<li class="ml-6 text-xl font-medium text-white"><a href="/">Home</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/World" >World</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Politics" >Politics</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Business" class="category">Business</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/technology" class="category">Technology</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Sports" class="category">Sports</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Science" class="category">Science</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/health" class="category">Health</a></li>
+  		
+  	</ul>
+  	<ul class="w-full md:w-2/3 px-10 md:px-0 m-auto hidden md:flex">
+  		<li class="text-xl font-medium text-white"><a href="/">Home</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/World" >World</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Politics" >Politics</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Business" class="category">Business</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/technology" class="category">Technology</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Sports" class="category">Sports</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Science" class="category">Science</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/health" class="category">Health</a></li>
+  	</ul>
+  	
+</nav>
+  	<div class="flex flex-wrap content-start w-full md:w-2/3 px-6 md:px-0 m-auto min-h-screen mt-10">
+  		
+
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/43de83936de69e99c2251f371442f9cb00cbbedd/0_2242_8700_5220/master/8700.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e65273248ac6ac30f35d9f2f8c99d457" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Bill-Gates-Carbon-neutrality-in-a-decade-is-a-fairytale-Why-peddle-fantasies-/">Bill Gates Carbon neutrality in a decade is a fairytale Why peddle fantasies</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Bill Gates Carbon neutrality in a decade is a fairytale Why peddle fantasies&url=http://jel.ink/2021/02/15/2021-2-15-Bill-Gates-Carbon-neutrality-in-a-decade-is-a-fairytale-Why-peddle-fantasies-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/aa3ec47323a32262b8acbbc781dfb3fd7963ee7b/0_76_6298_3778/master/6298.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8a14c4398f0e64476a5d852b1e8fe59a" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Race-to-lead-OECD-narrows-to-four-candidates/">Race to lead OECD narrows to four candidates</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Race to lead OECD narrows to four candidates&url=http://jel.ink/2021/02/15/2021-2-15-Race-to-lead-OECD-narrows-to-four-candidates/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/c09f094c430fe1903c5e002de746ba235c9187e7/0_0_5269_3162/master/5269.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7ae1661e02183730482157d4517fdcb4" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15--D-Day-UK-marks-50-years-since-decimalisation/">D Day UK marks 50 years since decimalisation</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=D Day UK marks 50 years since decimalisation&url=http://jel.ink/2021/02/15/2021-2-15--D-Day-UK-marks-50-years-since-decimalisation/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/18d86e0e5278df8fcc49173f0b4dbf0e8a6b8aa5/84_0_3313_1988/master/3313.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=f8b5e971327987a3f8fee3982cbe0ed0" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Covid-has-damaged-our-small-businesses-Now-Brexit-might-finish-them-off-John-Harris/">Covid has damaged our small businesses Now Brexit might finish them off John Harris</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Covid has damaged our small businesses Now Brexit might finish them off John Harris&url=http://jel.ink/2021/02/15/2021-2-15-Covid-has-damaged-our-small-businesses-Now-Brexit-might-finish-them-off-John-Harris/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/87e564f7f6c2aad7f046e39b8786b1ab8ee324fd/0_171_5120_3072/master/5120.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e85d266f8e364820f8fbf2673ef3dbcf" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-ISS-updates-proxy-voting-policy-against-directors-who-fail-to-address-climate-crisis/">ISS updates proxy voting policy against directors who fail to address climate crisis</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=ISS updates proxy voting policy against directors who fail to address climate crisis&url=http://jel.ink/2021/02/15/2021-2-15-ISS-updates-proxy-voting-policy-against-directors-who-fail-to-address-climate-crisis/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/6ffcc77f4e95a7394e4204d60dbf098c6c60ece9/5_0_9438_5668/master/9438.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0c8ffdce7dc827f13de9fc1cb99c8645" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15--A-managerial-Mephistopheles-inside-the-mind-of-Jeff-Bezos-podcast/">A managerial Mephistopheles inside the mind of Jeff Bezos podcast</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=A managerial Mephistopheles inside the mind of Jeff Bezos podcast&url=http://jel.ink/2021/02/15/2021-2-15--A-managerial-Mephistopheles-inside-the-mind-of-Jeff-Bezos-podcast/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/835185d1338744e8c7329e82d5304514e7e72911/0_47_1156_694/master/1156.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=03712ae3b8950b8022e35986ebaf5d09" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15--We-were-made-for-this-female-entrepreneurs/">We were made for this female entrepreneurs</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=We were made for this female entrepreneurs&url=http://jel.ink/2021/02/15/2021-2-15--We-were-made-for-this-female-entrepreneurs/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/8f521779c12df745d438b3dadd4210280548c0ef/0_211_4500_2700/master/4500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=0d59bb0490e9faa8d69faec75df1743e" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Harvester-owner-to-raise-350m-from-Sandy-Lane-set-/">Harvester owner to raise 350m from Sandy Lane set</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Harvester owner to raise 350m from Sandy Lane set&url=http://jel.ink/2021/02/15/2021-2-15-Harvester-owner-to-raise-350m-from-Sandy-Lane-set-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/13/us/13DC-TAKEAWAYS-vdv/merlin_183705201_d31e965b-89f7-47ce-a07e-632e0cfddb2f-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Here-are-a-few-takeaways-from-the-final-day-of-Trump-s-impeachment-trial-/">Here are a few takeaways from the final day of Trump s impeachment trial</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Here are a few takeaways from the final day of Trump s impeachment trial&url=http://jel.ink/2021/02/15/2021-2-15-Here-are-a-few-takeaways-from-the-final-day-of-Trump-s-impeachment-trial-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/14/us/politics/14impeachment-briefing-burr2/14impeachment-briefing-burr2-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Richard-Burr-s-Vote-to-Convict-Renews-Talk-of-a-Lara-Trump-Run-in-North-Carolina/">Richard Burr s Vote to Convict Renews Talk of a Lara Trump Run in North Carolina</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Richard Burr s Vote to Convict Renews Talk of a Lara Trump Run in North Carolina&url=http://jel.ink/2021/02/15/2021-2-15-Richard-Burr-s-Vote-to-Convict-Renews-Talk-of-a-Lara-Trump-Run-in-North-Carolina/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/14/us/politics/14nc-trump/14nc-trump-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Lara-Trump-for-North-Carolina-Senate-Seat-Trump-s-Trial-Is-Renewing-Talk/">Lara Trump for North Carolina Senate Seat Trump s Trial Is Renewing Talk</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Lara Trump for North Carolina Senate Seat Trump s Trial Is Renewing Talk&url=http://jel.ink/2021/02/15/2021-2-15-Lara-Trump-for-North-Carolina-Senate-Seat-Trump-s-Trial-Is-Renewing-Talk/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/13/us/politics/13impeachment-briefing-Trump-Jan6/13impeachment-briefing-Trump-Jan6-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-This-is-what-we-know-about-what-Trump-was-doing-from-1-p-m-to-6-p-m-on-Jan-6-/">This is what we know about what Trump was doing from 1 p m to 6 p m on Jan 6</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=This is what we know about what Trump was doing from 1 p m to 6 p m on Jan 6&url=http://jel.ink/2021/02/15/2021-2-15-This-is-what-we-know-about-what-Trump-was-doing-from-1-p-m-to-6-p-m-on-Jan-6-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/14/us/politics/14dc-commission/14dc-commission-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Calls-Grow-for-Commission-to-Investigate-Capitol-Riot/">Calls Grow for Commission to Investigate Capitol Riot</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Calls Grow for Commission to Investigate Capitol Riot&url=http://jel.ink/2021/02/15/2021-2-15-Calls-Grow-for-Commission-to-Investigate-Capitol-Riot/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/09/us/00minimum-wage03/00minimum-wage03-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-How-a-Minimum-Wage-Increase-Is-Being-Felt-in-a-Low-Wage-City/">How a Minimum Wage Increase Is Being Felt in a Low Wage City</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=How a Minimum Wage Increase Is Being Felt in a Low Wage City&url=http://jel.ink/2021/02/15/2021-2-15-How-a-Minimum-Wage-Increase-Is-Being-Felt-in-a-Low-Wage-City/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/14/us/politics/14dc-biden1/14dc-biden1-facebookJumbo-v2.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Biden-Takes-Center-Stage-With-Ambitious-Agenda-as-Trump-s-Trial-Ends/">Biden Takes Center Stage With Ambitious Agenda as Trump s Trial Ends</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Biden Takes Center Stage With Ambitious Agenda as Trump s Trial Ends&url=http://jel.ink/2021/02/15/2021-2-15-Biden-Takes-Center-Stage-With-Ambitious-Agenda-as-Trump-s-Trial-Ends/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/14/us/politics/14dc-defectors1/14dc-defectors1-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Why-Seven-Republican-Senators-Voted-to-Convict-Trump/">Why Seven Republican Senators Voted to Convict Trump</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Why Seven Republican Senators Voted to Convict Trump&url=http://jel.ink/2021/02/15/2021-2-15-Why-Seven-Republican-Senators-Voted-to-Convict-Trump/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/03/us/politics/00judicialgerrymander1/00judicialgerrymander1-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Pennsylvania-G-O-P-s-Push-for-More-Power-Over-Judiciary-Raises-Alarms/">Pennsylvania G O P s Push for More Power Over Judiciary Raises Alarms</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Pennsylvania G O P s Push for More Power Over Judiciary Raises Alarms&url=http://jel.ink/2021/02/15/2021-2-15-Pennsylvania-G-O-P-s-Push-for-More-Power-Over-Judiciary-Raises-Alarms/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/15/nyregion/15nymayor-takeaways1-PRINT/15nymayor-takeaways1-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Zoom-Fatigue-on-the-Campaign-Trail-5-Takeaways-From-the-Mayor-s-Race/">Zoom Fatigue on the Campaign Trail 5 Takeaways From the Mayor s Race</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Zoom Fatigue on the Campaign Trail 5 Takeaways From the Mayor s Race&url=http://jel.ink/2021/02/15/2021-2-15-Zoom-Fatigue-on-the-Campaign-Trail-5-Takeaways-From-the-Mayor-s-Race/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/64c6dc100d3fc7f6b223bb79647f24fc15b4a36e/0_73_3500_2099/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae3c686a9939085c1e9a4ae653b60ec5" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Fears-over-Covid-vaccine-access-in-Pakistan-as-private-imports-sanctioned/">Fears over Covid vaccine access in Pakistan as private imports sanctioned</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Fears over Covid vaccine access in Pakistan as private imports sanctioned&url=http://jel.ink/2021/02/15/2021-2-15-Fears-over-Covid-vaccine-access-in-Pakistan-as-private-imports-sanctioned/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/d1b84425fda0d96c30c6a8c7df12b318277e2097/0_353_6547_3926/master/6547.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=aed5b3726533fbb18c106c988ccae15e" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15--It-s-been-scary-getting-vaccinated-akin-to-lottery-for-US-teachers/">It s been scary getting vaccinated akin to lottery for US teachers</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=It s been scary getting vaccinated akin to lottery for US teachers&url=http://jel.ink/2021/02/15/2021-2-15--It-s-been-scary-getting-vaccinated-akin-to-lottery-for-US-teachers/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/6e80d03bb07c977018cb1106ed12f878cc82fca7/0_0_1024_614/master/1024.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f8d14dc88de3b4d61bfe63f998efedf0" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Mexico-was-once-a-climate-leader-now-it-s-betting-big-on-coal/">Mexico was once a climate leader now it s betting big on coal</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Mexico was once a climate leader now it s betting big on coal&url=http://jel.ink/2021/02/15/2021-2-15-Mexico-was-once-a-climate-leader-now-it-s-betting-big-on-coal/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/413749a125780141e93cec9ac1358542941d4796/125_723_2917_1749/master/2917.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=302e6af142fa855878af5d18cc738acc" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15--Am-I-going-to-regret-it-forever-chemicals-dilemma-for-breastfeeding-mothers/">Am I going to regret it forever chemicals dilemma for breastfeeding mothers</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Am I going to regret it forever chemicals dilemma for breastfeeding mothers&url=http://jel.ink/2021/02/15/2021-2-15--Am-I-going-to-regret-it-forever-chemicals-dilemma-for-breastfeeding-mothers/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/162c374f307e5c45c281c241041614f64da445cc/2173_156_1995_1197/master/1995.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1f63e1b276d2da2b017f72150fc6484b" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Risk-of-global-food-shortages-due-to-Covid-has-increased-says-UN-envoy/">Risk of global food shortages due to Covid has increased says UN envoy</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Risk of global food shortages due to Covid has increased says UN envoy&url=http://jel.ink/2021/02/15/2021-2-15-Risk-of-global-food-shortages-due-to-Covid-has-increased-says-UN-envoy/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/516fa4b0266d867e72cdc3f84f7f2dd84036cd90/26_0_803_482/master/803.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTMucG5n&enable=upscale&s=a5d9664b7901aa0eec097b4f41efbfe9" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Digger-review-family-tensions-are-unearthed-in-slow-burn-Greek-drama/">Digger review family tensions are unearthed in slow burn Greek drama</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Digger review family tensions are unearthed in slow burn Greek drama&url=http://jel.ink/2021/02/15/2021-2-15-Digger-review-family-tensions-are-unearthed-in-slow-burn-Greek-drama/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/1e23c919570f9a999adb4c9f24222704587a9b68/411_885_5934_3560/master/5934.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2ffcc6c36fd19ac19d7f6c4e94114f1b" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Israel-battles-Covid-misinformation-as-vaccination-drive-slows/">Israel battles Covid misinformation as vaccination drive slows</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Israel battles Covid misinformation as vaccination drive slows&url=http://jel.ink/2021/02/15/2021-2-15-Israel-battles-Covid-misinformation-as-vaccination-drive-slows/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/4ad911040d64f5b7bbc1764712cf91d1c9416040/0_263_2048_1229/master/2048.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e5fb283f29b6b386943ef2ec4e9d9484" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Carlos-Menem-obituary/">Carlos Menem obituary</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Carlos Menem obituary&url=http://jel.ink/2021/02/15/2021-2-15-Carlos-Menem-obituary/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/6a14857f0ad8934523ba3882eae2ae0a557a1295/0_223_6700_4022/master/6700.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=df6b5b39393aa6e50856a15a606590ef" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-First-travellers-arrive-at-Covid-quarantine-hotels-in-England/">First travellers arrive at Covid quarantine hotels in England</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=First travellers arrive at Covid quarantine hotels in England&url=http://jel.ink/2021/02/15/2021-2-15-First-travellers-arrive-at-Covid-quarantine-hotels-in-England/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/ab9933f9711055da0f426682c87ce1ad84d8615f/0_5_2800_1680/master/2800.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a278a100c7694e7f2e1d7c1d7c39e07b" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Myanmar-troops-and-police-forcefully-disperse-marchers-in-Mandalay/">Myanmar troops and police forcefully disperse marchers in Mandalay</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Myanmar troops and police forcefully disperse marchers in Mandalay&url=http://jel.ink/2021/02/15/2021-2-15-Myanmar-troops-and-police-forcefully-disperse-marchers-in-Mandalay/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/5b44441d18088c5519db442aed64a9237d1d9d50/0_12_3307_1985/master/3307.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=dca07e3734009f5f84e9b4a3afd67373" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-The-next-pandemic-It-may-already-be-upon-us-Laura-Spinney/">The next pandemic It may already be upon us Laura Spinney</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The next pandemic It may already be upon us Laura Spinney&url=http://jel.ink/2021/02/15/2021-2-15-The-next-pandemic-It-may-already-be-upon-us-Laura-Spinney/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/db0a2aee2afbd76d8f3ef3b7d6104cd4d5611399/0_245_2056_1233/master/2056.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=704b7ec1d060c54784dc50a74fe54626" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Irish-Sea-rail-tunnel-plan-derided-as-Doctor-Dolittle-fantasy/">Irish Sea rail tunnel plan derided as Doctor Dolittle fantasy</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Irish Sea rail tunnel plan derided as Doctor Dolittle fantasy&url=http://jel.ink/2021/02/15/2021-2-15-Irish-Sea-rail-tunnel-plan-derided-as-Doctor-Dolittle-fantasy/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+
+
+  <nav id="page-nav" class="w-full text-center mt-8" dir="ltr">
+   <a class="extend prev" rel="prev" href="/archives/page/26/">&lt;</a><a class="page-number" href="/archives/">1</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/25/">25</a><a class="page-number" href="/archives/page/26/">26</a><span class="page-number current">27</span><a class="page-number" href="/archives/page/28/">28</a><a class="page-number" href="/archives/page/29/">29</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/39/">39</a><a class="extend next" rel="next" href="/archives/page/28/">&gt;</a>
+  </nav>
+	
+  	</div>
+  	<nav class="flex bg-gray-900 py-6 mt-10">
+	<div class="w-full md:w-2/3 px-10 md:px-0 m-auto flex justify-between items-center">
+		<a class="text-white text-xl font-bold"  href="/">Jelink</a>
+		<ul class="flex">
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-facebook"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-twitter"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-linkedin"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-rss"></ion-icon></li>
+		</ul>
+	</div>
+</nav>
+
+
+
+
+   
+  </body>
+</html>

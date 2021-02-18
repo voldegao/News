@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="propeller" content="3672f6e76d48dd2c5ccdd43a3a2aa9be">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jel.ink/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jel.ink/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jel.ink/images/favicon-16x16.png">
+    <link rel="manifest" href="https://jel.ink/images/site.webmanifest">
+
+    <meta name="title" content=" ">
+    <meta name="description" content="">
+    <meta name="image" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content=" ">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content=" ">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="">
+
+  	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WNL90MFSH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0WNL90MFSH');
+    </script>
+	   <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+     <script>
+        $(document).ready(function(){
+          $("#btn").click(function(){
+            $("#navmob").toggle();
+          });
+        });
+      </script>
+
+	<style type="text/css">
+    #post-content img{
+      margin-bottom: 30px
+    }
+		html{
+			font-family: 'Roboto', sans-serif;
+		}
+    .montserrat{
+      font-family: 'Roboto', sans-serif;
+    }
+    span.page-number.current{
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 18px;
+      background-color: #4b5563;
+      color: white;
+      border-radius: 12%;
+      margin-left:4px;
+      margin-right:4px;
+    }
+    a.page-number {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left:4px;
+      margin-right:4px;
+    }
+    a.page-number:hover {
+        background-color: #4b5563;
+      color: white;
+      border-radius: 12%;
+    }
+    .w-100p{
+      width: 100px;
+    }
+    .h-100p{
+      height: 100px;
+    }
+    .w-min-100{
+      min-width: 100px;
+    }
+    .h-min-100{
+      min-height: 100px;
+    }
+	</style>
+  <meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Jelink" type="application/atom+xml">
+</head>	
+  <body>
+
+  	<nav class="flex flex-col bg-gray-900 py-3 md:py-5 mb-4">
+	<div class="w-full md:w-2/3 px-2 md:px-0 md:mb-4 m-auto flex justify-between items-center">
+		<a class="text-white text-2xl montserrat flex flex-col" href="/">
+      <span class="font-bold">Jelink</span> 
+      <span class="text-base">News In Brief</span>
+    </a>
+		<ul class="flex">
+			<li class="mx-2 text-white text-lg hidden md:block"><ion-icon name="logo-facebook"></ion-icon></li>
+			<li class="mx-2 text-white text-lg hidden  md:block"><ion-icon name="logo-twitter"></ion-icon></li>
+			<li class="mx-2 text-white text-lg  hidden md:block"><ion-icon name="logo-linkedin"></ion-icon></li>
+			<li class="mx-2 text-white text-lg hidden md:block"><ion-icon name="logo-rss"></ion-icon></li>
+			<li class="mx-2 text-white text-4xl md:hidden" id="btn"><ion-icon name="menu"></ion-icon></li>
+		</ul>
+	</div>
+  	<ul class="w-full md:w-2/3 px-10 md:px-0 m-auto flex-col hidden md:hidden" id="navmob">
+  		<li class="ml-6 text-xl font-medium text-white"><a href="/">Home</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/World" >World</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Politics" >Politics</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Business" class="category">Business</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/technology" class="category">Technology</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Sports" class="category">Sports</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Science" class="category">Science</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/health" class="category">Health</a></li>
+  		
+  	</ul>
+  	<ul class="w-full md:w-2/3 px-10 md:px-0 m-auto hidden md:flex">
+  		<li class="text-xl font-medium text-white"><a href="/">Home</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/World" >World</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Politics" >Politics</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Business" class="category">Business</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/technology" class="category">Technology</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Sports" class="category">Sports</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Science" class="category">Science</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/health" class="category">Health</a></li>
+  	</ul>
+  	
+</nav>
+  	<div class="flex flex-wrap content-start w-full md:w-2/3 px-6 md:px-0 m-auto min-h-screen mt-10">
+  		
+
+<div class="flex text-xl text-gray-500 pb-4 w-full ">
+  <a href="/"> Home /  </a>
+  
+   
+   
+   
+   
+   
+    <a class="mr-3" href="/categories/Science"> Science </a>
+  
+  
+</div>
+
+
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/02/20/PRI181323268dino.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Sheep-sized-dinosaur-attracted-sexual-partners-with-huge-neck-frill-new-study-suggests/">Sheep sized dinosaur attracted sexual partners with huge neck frill new study suggests</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Sheep sized dinosaur attracted sexual partners with huge neck frill new study suggests&url=http://jel.ink/2021/02/18/2021-2-18-Sheep-sized-dinosaur-attracted-sexual-partners-with-huge-neck-frill-new-study-suggests/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/03/15/newFile-8.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Animation-shows-life-of-blue-whale-as-it-tries-to-avoid-shipping-traffic/">Animation shows life of blue whale as it tries to avoid shipping traffic</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Animation shows life of blue whale as it tries to avoid shipping traffic&url=http://jel.ink/2021/02/18/2021-2-18-Animation-shows-life-of-blue-whale-as-it-tries-to-avoid-shipping-traffic/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/02/15/GettyImages-620500322.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Nasa-s-Golden-Surfer-is-almost-ready/">Nasa s Golden Surfer is almost ready</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Nasa s Golden Surfer is almost ready&url=http://jel.ink/2021/02/18/2021-2-18-Nasa-s-Golden-Surfer-is-almost-ready/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/03/17/newFile-9.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Deforestation-stressing-animals-out-scientists-warn/">Deforestation stressing animals out scientists warn</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Deforestation stressing animals out scientists warn&url=http://jel.ink/2021/02/18/2021-2-18-Deforestation-stressing-animals-out-scientists-warn/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/03/15/newFile-9.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-World-must-switch-to-plant-based-diets-to-halt-biodiversity-crisis-say-experts/">World must switch to plant based diets to halt biodiversity crisis say experts</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=World must switch to plant based diets to halt biodiversity crisis say experts&url=http://jel.ink/2021/02/18/2021-2-18-World-must-switch-to-plant-based-diets-to-halt-biodiversity-crisis-say-experts/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/05/17/newFile-16.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-World-s-smallest-reptile-discovered-in-Madagascar-may-already-be-endangered/">World s smallest reptile discovered in Madagascar may already be endangered</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=World s smallest reptile discovered in Madagascar may already be endangered&url=http://jel.ink/2021/02/18/2021-2-18-World-s-smallest-reptile-discovered-in-Madagascar-may-already-be-endangered/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/05/15/newFile.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Denmark-to-build-world-s-first-wind-energy-island-in-North-Sea-to-power-millions-of-homes/">Denmark to build world s first wind energy island in North Sea to power millions of homes</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Denmark to build world s first wind energy island in North Sea to power millions of homes&url=http://jel.ink/2021/02/18/2021-2-18-Denmark-to-build-world-s-first-wind-energy-island-in-North-Sea-to-power-millions-of-homes/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/09/17/PRI182183255.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Out-of-this-world-Why-the-UAE-s-mission-to-Mars-is-a-geopolitical-triumph/">Out of this world Why the UAE s mission to Mars is a geopolitical triumph</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Out of this world Why the UAE s mission to Mars is a geopolitical triumph&url=http://jel.ink/2021/02/18/2021-2-18-Out-of-this-world-Why-the-UAE-s-mission-to-Mars-is-a-geopolitical-triumph/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/09/17/newFile-4.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Coffee-may-reduce-risk-of-heart-attack-data-from-three-large-studies-suggests/">Coffee may reduce risk of heart attack data from three large studies suggests</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Coffee may reduce risk of heart attack data from three large studies suggests&url=http://jel.ink/2021/02/18/2021-2-18-Coffee-may-reduce-risk-of-heart-attack-data-from-three-large-studies-suggests/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/10/13/PRI176521492.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Coronaviruses-linked-to-Covid-19-circulating-in-bats-and-pangolins-in-Southeast-Asia-study-finds/">Coronaviruses linked to Covid 19 circulating in bats and pangolins in Southeast Asia study finds</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Coronaviruses linked to Covid 19 circulating in bats and pangolins in Southeast Asia study finds&url=http://jel.ink/2021/02/18/2021-2-18-Coronaviruses-linked-to-Covid-19-circulating-in-bats-and-pangolins-in-Southeast-Asia-study-finds/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/10/13/newFile-3.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Dragonflies-perform-upside-down-backflips-to-right-themselves-even-while-unconscious/">Dragonflies perform upside down backflips to right themselves even while unconscious</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Dragonflies perform upside down backflips to right themselves even while unconscious&url=http://jel.ink/2021/02/18/2021-2-18-Dragonflies-perform-upside-down-backflips-to-right-themselves-even-while-unconscious/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/09/12/sci-news-brief-hero.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-From-Indian-cave-masterpieces-to-a-mouse-that-survived-an-apocalypse/">From Indian cave masterpieces to a mouse that survived an apocalypse</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=From Indian cave masterpieces to a mouse that survived an apocalypse&url=http://jel.ink/2021/02/18/2021-2-18-From-Indian-cave-masterpieces-to-a-mouse-that-survived-an-apocalypse/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/08/12/newFile.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-The-oceans-are-becoming-an-unbearably-noisy-place-for-marine-life/">The oceans are becoming an unbearably noisy place for marine life</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The oceans are becoming an unbearably noisy place for marine life&url=http://jel.ink/2021/02/18/2021-2-18-The-oceans-are-becoming-an-unbearably-noisy-place-for-marine-life/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/10/23/newFile-3.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Shell-collected-in-French-cave-found-to-be-18-000-year-old-wind-instrument/">Shell collected in French cave found to be 18 000 year old wind instrument</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Shell collected in French cave found to be 18 000 year old wind instrument&url=http://jel.ink/2021/02/18/2021-2-18-Shell-collected-in-French-cave-found-to-be-18-000-year-old-wind-instrument/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/10/16/newFile.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-All-the-world-s-Covid-could-fit-inside-330ml-drink-can-mathematician-calculates/">All the world s Covid could fit inside 330ml drink can mathematician calculates</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=All the world s Covid could fit inside 330ml drink can mathematician calculates&url=http://jel.ink/2021/02/18/2021-2-18-All-the-world-s-Covid-could-fit-inside-330ml-drink-can-mathematician-calculates/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/11/13/newFile-1.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Sawfish-facing-extinction-due-to-overfishing-scientists-warn/">Sawfish facing extinction due to overfishing scientists warn</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Sawfish facing extinction due to overfishing scientists warn&url=http://jel.ink/2021/02/18/2021-2-18-Sawfish-facing-extinction-due-to-overfishing-scientists-warn/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/11/17/newFile.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Fatal-attraction-UK-s-smallest-bat-species-drawn-to-wind-turbines/">Fatal attraction UK s smallest bat species drawn to wind turbines</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Fatal attraction UK s smallest bat species drawn to wind turbines&url=http://jel.ink/2021/02/18/2021-2-18-Fatal-attraction-UK-s-smallest-bat-species-drawn-to-wind-turbines/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/11/16/newFile-2.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Beavers-to-be-reintroduced-in-record-numbers-across-Britain-this-year/">Beavers to be reintroduced in record numbers across Britain this year</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Beavers to be reintroduced in record numbers across Britain this year&url=http://jel.ink/2021/02/18/2021-2-18-Beavers-to-be-reintroduced-in-record-numbers-across-Britain-this-year/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/11/22/newFile.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Ancient-stone-circle-in-Wales-may-have-been-rebuilt-as-Stonehenge-archaeologists-discover/">Ancient stone circle in Wales may have been rebuilt as Stonehenge archaeologists discover</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Ancient stone circle in Wales may have been rebuilt as Stonehenge archaeologists discover&url=http://jel.ink/2021/02/18/2021-2-18-Ancient-stone-circle-in-Wales-may-have-been-rebuilt-as-Stonehenge-archaeologists-discover/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/08/10/robot%20fear%20inline%203.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Why-haven-t-our-fears-of-robots-changed-in-a-hundred-years-/">Why haven t our fears of robots changed in a hundred years</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Why haven t our fears of robots changed in a hundred years&url=http://jel.ink/2021/02/18/2021-2-18-Why-haven-t-our-fears-of-robots-changed-in-a-hundred-years-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/08/16/GettyImages-1229615624.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-The-Iraqi-archaeologists-trying-to-save-ancient-Babylon/">The Iraqi archaeologists trying to save ancient Babylon</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The Iraqi archaeologists trying to save ancient Babylon&url=http://jel.ink/2021/02/18/2021-2-18-The-Iraqi-archaeologists-trying-to-save-ancient-Babylon/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2020/12/09/01/San_Francisco_Smoking_Ban_02668.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-CT-scanning-detects-lung-cancer-early-and-could-save-lives-study-suggests/">CT scanning detects lung cancer early and could save lives study suggests</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=CT scanning detects lung cancer early and could save lives study suggests&url=http://jel.ink/2021/02/18/2021-2-18-CT-scanning-detects-lung-cancer-early-and-could-save-lives-study-suggests/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/15/11/newFile-4.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Sea-life-that-shouldn-t-be-there-found-900m-under-Antarctic-ice-sheet/">Sea life that shouldn t be there found 900m under Antarctic ice sheet</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Sea life that shouldn t be there found 900m under Antarctic ice sheet&url=http://jel.ink/2021/02/18/2021-2-18-Sea-life-that-shouldn-t-be-there-found-900m-under-Antarctic-ice-sheet/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/15/14/15_Feb_Polistes_paper_wasps_are_models_for_understanding_the_evolution_of_altruism_Credit_P._Kennedy%20%281%29.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Babysitting-wasps-that-support-extended-families-could-help-solve-riddle-of-altruism-scientists-say/">Babysitting wasps that support extended families could help solve riddle of altruism scientists say</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Babysitting wasps that support extended families could help solve riddle of altruism scientists say&url=http://jel.ink/2021/02/18/2021-2-18-Babysitting-wasps-that-support-extended-families-could-help-solve-riddle-of-altruism-scientists-say/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/15/17/newFile-2.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Climate-change-may-have-helped-dinosaurs-walk-from-South-America-to-Greenland-/">Climate change may have helped dinosaurs walk from South America to Greenland</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Climate change may have helped dinosaurs walk from South America to Greenland&url=http://jel.ink/2021/02/18/2021-2-18-Climate-change-may-have-helped-dinosaurs-walk-from-South-America-to-Greenland-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/15/15/newFile-8.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Fossilised-remains-of-great-white-shark-sized-fish-discovered-after-being-mistaken-for-flying-reptile/">Fossilised remains of great white shark sized fish discovered after being mistaken for flying reptile</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Fossilised remains of great white shark sized fish discovered after being mistaken for flying reptile&url=http://jel.ink/2021/02/18/2021-2-18-Fossilised-remains-of-great-white-shark-sized-fish-discovered-after-being-mistaken-for-flying-reptile/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/12/16/iStock-1213399274.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Why-hobbies-can-improve-our-mental-health/">Why hobbies can improve our mental health</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Why hobbies can improve our mental health&url=http://jel.ink/2021/02/18/2021-2-18-Why-hobbies-can-improve-our-mental-health/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/15/15/newFile-5.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Animal-populations-drop-by-62-where-wildlife-trade-occurs-/">Animal populations drop by 62 where wildlife trade occurs</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Animal populations drop by 62 where wildlife trade occurs&url=http://jel.ink/2021/02/18/2021-2-18-Animal-populations-drop-by-62-where-wildlife-trade-occurs-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/16/16/RSPB_RDaling_MacGillivrays%20prion%20chick-1.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Scientists-resume-mass-mice-cull-to-stop-endangered-seabirds-from-being-eaten-alive/">Scientists resume mass mice cull to stop endangered seabirds from being eaten alive</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Scientists resume mass mice cull to stop endangered seabirds from being eaten alive&url=http://jel.ink/2021/02/18/2021-2-18-Scientists-resume-mass-mice-cull-to-stop-endangered-seabirds-from-being-eaten-alive/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.independent.co.uk/2021/02/16/14/HERITAGE20Pests202011245050.jpg?width=1200&auto=webp&quality=75" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/18/2021-2-18-Tiny-wasps-to-be-deployed-to-stop-moths-destroying-rare-treasures-at-heritage-sites/">Tiny wasps to be deployed to stop moths destroying rare treasures at heritage sites</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The independent <span class="mx-1">.</span> 2021/02/18</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Tiny wasps to be deployed to stop moths destroying rare treasures at heritage sites&url=http://jel.ink/2021/02/18/2021-2-18-Tiny-wasps-to-be-deployed-to-stop-moths-destroying-rare-treasures-at-heritage-sites/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+
+
+  <nav id="page-nav" class="w-full text-center mt-8" dir="ltr">
+   <a class="extend prev" rel="prev" href="/categories/Science/page/3/">&lt;</a><a class="page-number" href="/categories/Science/">1</a><a class="page-number" href="/categories/Science/page/2/">2</a><a class="page-number" href="/categories/Science/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/categories/Science/page/5/">5</a><a class="page-number" href="/categories/Science/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/categories/Science/page/8/">8</a><a class="extend next" rel="next" href="/categories/Science/page/5/">&gt;</a>
+  </nav>
+	
+  	</div>
+  	<nav class="flex bg-gray-900 py-6 mt-10">
+	<div class="w-full md:w-2/3 px-10 md:px-0 m-auto flex justify-between items-center">
+		<a class="text-white text-xl font-bold"  href="/">Jelink</a>
+		<ul class="flex">
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-facebook"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-twitter"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-linkedin"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-rss"></ion-icon></li>
+		</ul>
+	</div>
+</nav>
+
+
+
+
+   
+  </body>
+</html>

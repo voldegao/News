@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="propeller" content="3672f6e76d48dd2c5ccdd43a3a2aa9be">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jel.ink/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jel.ink/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jel.ink/images/favicon-16x16.png">
+    <link rel="manifest" href="https://jel.ink/images/site.webmanifest">
+
+    <meta name="title" content=" ">
+    <meta name="description" content="">
+    <meta name="image" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content=" ">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content=" ">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="">
+
+  	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WNL90MFSH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0WNL90MFSH');
+    </script>
+	   <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+     <script>
+        $(document).ready(function(){
+          $("#btn").click(function(){
+            $("#navmob").toggle();
+          });
+        });
+      </script>
+
+	<style type="text/css">
+    #post-content img{
+      margin-bottom: 30px
+    }
+		html{
+			font-family: 'Roboto', sans-serif;
+		}
+    .montserrat{
+      font-family: 'Roboto', sans-serif;
+    }
+    span.page-number.current{
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 18px;
+      background-color: #4b5563;
+      color: white;
+      border-radius: 12%;
+      margin-left:4px;
+      margin-right:4px;
+    }
+    a.page-number {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left:4px;
+      margin-right:4px;
+    }
+    a.page-number:hover {
+        background-color: #4b5563;
+      color: white;
+      border-radius: 12%;
+    }
+    .w-100p{
+      width: 100px;
+    }
+    .h-100p{
+      height: 100px;
+    }
+    .w-min-100{
+      min-width: 100px;
+    }
+    .h-min-100{
+      min-height: 100px;
+    }
+	</style>
+  <meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Jelink" type="application/atom+xml">
+</head>	
+  <body>
+
+  	<nav class="flex flex-col bg-gray-900 py-3 md:py-5 mb-4">
+	<div class="w-full md:w-2/3 px-2 md:px-0 md:mb-4 m-auto flex justify-between items-center">
+		<a class="text-white text-2xl montserrat flex flex-col" href="/">
+      <span class="font-bold">Jelink</span> 
+      <span class="text-base">News In Brief</span>
+    </a>
+		<ul class="flex">
+			<li class="mx-2 text-white text-lg hidden md:block"><ion-icon name="logo-facebook"></ion-icon></li>
+			<li class="mx-2 text-white text-lg hidden  md:block"><ion-icon name="logo-twitter"></ion-icon></li>
+			<li class="mx-2 text-white text-lg  hidden md:block"><ion-icon name="logo-linkedin"></ion-icon></li>
+			<li class="mx-2 text-white text-lg hidden md:block"><ion-icon name="logo-rss"></ion-icon></li>
+			<li class="mx-2 text-white text-4xl md:hidden" id="btn"><ion-icon name="menu"></ion-icon></li>
+		</ul>
+	</div>
+  	<ul class="w-full md:w-2/3 px-10 md:px-0 m-auto flex-col hidden md:hidden" id="navmob">
+  		<li class="ml-6 text-xl font-medium text-white"><a href="/">Home</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/World" >World</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Politics" >Politics</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Business" class="category">Business</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/technology" class="category">Technology</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Sports" class="category">Sports</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Science" class="category">Science</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/health" class="category">Health</a></li>
+  		
+  	</ul>
+  	<ul class="w-full md:w-2/3 px-10 md:px-0 m-auto hidden md:flex">
+  		<li class="text-xl font-medium text-white"><a href="/">Home</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/World" >World</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Politics" >Politics</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Business" class="category">Business</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/technology" class="category">Technology</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Sports" class="category">Sports</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Science" class="category">Science</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/health" class="category">Health</a></li>
+  	</ul>
+  	
+</nav>
+  	<div class="flex flex-wrap content-start w-full md:w-2/3 px-6 md:px-0 m-auto min-h-screen mt-10">
+  		
+
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/gettyimages-1230455795-edit_wide-e575fc422ed9a0e7f85edb68534d9968b7328a51.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-A-Scary-Survey-Finding-4-In-10-Republicans-Say-Political-Violence-May-Be-Necessary/">A Scary Survey Finding 4 In 10 Republicans Say Political Violence May Be Necessary</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=A Scary Survey Finding 4 In 10 Republicans Say Political Violence May Be Necessary&url=http://jel.ink/2021/02/12/2021-2-12-A-Scary-Survey-Finding-4-In-10-Republicans-Say-Political-Violence-May-Be-Necessary/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/10/ap_21041787652200_wide-4ec06d64db748b87b514bb63e176258f7b0975ae.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Danger-To-Lawmakers-Republican-Reaction-Takeaways-From-Impeachment-Trial-Day-2/">Danger To Lawmakers Republican Reaction Takeaways From Impeachment Trial Day 2</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Danger To Lawmakers Republican Reaction Takeaways From Impeachment Trial Day 2&url=http://jel.ink/2021/02/12/2021-2-12-Danger-To-Lawmakers-Republican-Reaction-Takeaways-From-Impeachment-Trial-Day-2/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/gettyimages-1231101471_wide-fdccfefe94c5e720aadbcef69f75509a3f55e3c3.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Impeachment-Managers-To-Focus-On-Insurrection-Damage-In-Day-3-Of-Trial/">Impeachment Managers To Focus On Insurrection Damage In Day 3 Of Trial</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Impeachment Managers To Focus On Insurrection Damage In Day 3 Of Trial&url=http://jel.ink/2021/02/12/2021-2-12-Impeachment-Managers-To-Focus-On-Insurrection-Damage-In-Day-3-Of-Trial/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/gettyimages-1231103805_wide-eb64498877779dd0751ab3b35fa308bdc64efad1.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Rioters-Own-Words-Show-Incitement-By-Trump-Impeachment-Managers-Argue/">Rioters Own Words Show Incitement By Trump Impeachment Managers Argue</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Rioters Own Words Show Incitement By Trump Impeachment Managers Argue&url=http://jel.ink/2021/02/12/2021-2-12-Rioters-Own-Words-Show-Incitement-By-Trump-Impeachment-Managers-Argue/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/gettyimages-1230702421_wide-0a3cd0fc0ef940084a3638c09ccec03fd6bc1bf1.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Trump-Attorney-Criticizes-Democrats-As-Offering-Entertainment-Package-/">Trump Attorney Criticizes Democrats As Offering Entertainment Package</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Trump Attorney Criticizes Democrats As Offering Entertainment Package&url=http://jel.ink/2021/02/12/2021-2-12-Trump-Attorney-Criticizes-Democrats-As-Offering-Entertainment-Package-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/gettyimages-1231064202_wide-5de7536f3d4b19320c32277ae17afea2ee2868aa.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12--His-Essential-MO-Trump-Had-History-Of-Approving-Of-Violence-Democrats-Allege/">His Essential MO Trump Had History Of Approving Of Violence Democrats Allege</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=His Essential MO Trump Had History Of Approving Of Violence Democrats Allege&url=http://jel.ink/2021/02/12/2021-2-12--His-Essential-MO-Trump-Had-History-Of-Approving-Of-Violence-Democrats-Allege/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/gettyimages-1231088889_wide-100907efa22e6cb2a99dd673ae2efed649d4aee7.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-Senators-Moved-By-Actions-Of-Capitol-Police-Officer-Goodman-To-Protect-Them/">Senators Moved By Actions Of Capitol Police Officer Goodman To Protect Them</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Senators Moved By Actions Of Capitol Police Officer Goodman To Protect Them&url=http://jel.ink/2021/02/12/2021-2-12-Senators-Moved-By-Actions-Of-Capitol-Police-Officer-Goodman-To-Protect-Them/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/gettyimages-1231104598_wide-711ded7ca1f10e313b56ad0ba4c548bb350247e3.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12--He-Can-Do-This-Again-Rep-Lieu-Warns-Of-Future-Attacks-On-Democracy-/">He Can Do This Again Rep Lieu Warns Of Future Attacks On Democracy</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=He Can Do This Again Rep Lieu Warns Of Future Attacks On Democracy&url=http://jel.ink/2021/02/12/2021-2-12--He-Can-Do-This-Again-Rep-Lieu-Warns-Of-Future-Attacks-On-Democracy-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media.npr.org/assets/img/2021/02/11/gettyimages-12311045981_wide-711ded7ca1f10e313b56ad0ba4c548bb350247e3.jpg?s=1400" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/12/2021-2-12-House-Democrats-Use-Trump-s-Own-Words-To-Argue-He-Showed-No-Remorse-After-Attack/">House Democrats Use Trump s Own Words To Argue He Showed No Remorse After Attack</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>NPR News <span class="mx-1">.</span> 2021/02/12</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=House Democrats Use Trump s Own Words To Argue He Showed No Remorse After Attack&url=http://jel.ink/2021/02/12/2021-2-12-House-Democrats-Use-Trump-s-Own-Words-To-Argue-He-Showed-No-Remorse-After-Attack/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media1.s-nbcnews.com/j/newscms/2021_05/3448086/210205-gop-needs-therapy-main-an_a1130e27fcd5468ec4e7a5db3a35ff5a.nbcnews-fp-1200-630.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Why-can-t-the-GOP-let-people-like-AOC-process-trauma-healthily-/">Why can t the GOP let people like AOC process trauma healthily</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Msnbc <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Why can t the GOP let people like AOC process trauma healthily&url=http://jel.ink/2021/02/11/2021-2-11-Why-can-t-the-GOP-let-people-like-AOC-process-trauma-healthily-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media1.s-nbcnews.com/j/newscms/2021_05/3447603/210204-marjorie-taylor-greene-al-1021_2f87f649e03b92c52435baf09b339c4c.nbcnews-fp-1200-630.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-From-Ronald-to-Marjorie-40-years-of-anti-government-messaging/">From Ronald to Marjorie 40 years of anti government messaging</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Msnbc <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=From Ronald to Marjorie 40 years of anti government messaging&url=http://jel.ink/2021/02/11/2021-2-11-From-Ronald-to-Marjorie-40-years-of-anti-government-messaging/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media3.s-nbcnews.com/j/newscms/2021_06/3448530/210208-hitler-trial-main-an_0aa86a5a2d906f71e547f7e1719505d8.nbcnews-fp-1200-630.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Opinion-1924-shows-how-Trump-s-impeachment-trial-could-backfire/">Opinion 1924 shows how Trump s impeachment trial could backfire</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Msnbc <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Opinion 1924 shows how Trump s impeachment trial could backfire&url=http://jel.ink/2021/02/11/2021-2-11-Opinion-1924-shows-how-Trump-s-impeachment-trial-could-backfire/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media3.s-nbcnews.com/j/newscms/2021_06/3448902/210209-trump-impeachment-prosecutors-main-an_8527edd348935552804194a5a9a9d8f1.nbcnews-fp-1200-630.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Opinion-Democrats-found-the-best-argument-for-17-GOP-impeachment-votes-on-Day-One/">Opinion Democrats found the best argument for 17 GOP impeachment votes on Day One</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Msnbc <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Opinion Democrats found the best argument for 17 GOP impeachment votes on Day One&url=http://jel.ink/2021/02/11/2021-2-11-Opinion-Democrats-found-the-best-argument-for-17-GOP-impeachment-votes-on-Day-One/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media2.s-nbcnews.com/j/newscms/2021_06/3448774/210209-marjorie-taylor-greene-trump-an_a0327f1c2b354f8264fa6ff587819d10.nbcnews-fp-1200-630.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Opinion-Trump-s-lies-got-him-impeached-again-The-GOP-let-it-get-to-this-/">Opinion Trump s lies got him impeached again The GOP let it get to this</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Msnbc <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Opinion Trump s lies got him impeached again The GOP let it get to this&url=http://jel.ink/2021/02/11/2021-2-11-Opinion-Trump-s-lies-got-him-impeached-again-The-GOP-let-it-get-to-this-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media2.s-nbcnews.com/j/newscms/2021_06/3448906/210209-jamie-raskin-trump-main-an_5290b3b88d26d358c11308be25ca48ca.nbcnews-fp-1200-630.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-America-s-soul-looks-like-Jamie-Raskin-not-Donald-Trump/">America s soul looks like Jamie Raskin not Donald Trump</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Msnbc <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=America s soul looks like Jamie Raskin not Donald Trump&url=http://jel.ink/2021/02/11/2021-2-11-America-s-soul-looks-like-Jamie-Raskin-not-Donald-Trump/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://media2.s-nbcnews.com/j/newscms/2021_06/3449249/210210-impeachment-day-two-main-an_a85d8911a56241863f613e5ecc31332a.nbcnews-fp-1200-630.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Why-it-s-hard-to-look-away-from-Trump-s-impeachment-trial/">Why it s hard to look away from Trump s impeachment trial</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Msnbc <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Why it s hard to look away from Trump s impeachment trial&url=http://jel.ink/2021/02/11/2021-2-11-Why-it-s-hard-to-look-away-from-Trump-s-impeachment-trial/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/33d6c2bb0599bc4cdcd977072cbc5dfed033d190/0_14_1280_768/master/1280.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=979f7ade09bc8c886f6ae28010dbabf4" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11--It-is-so-much-bigger-than-Trayvon-how-bereaved-mother-Sybrina-Fulton-fought-back/">It is so much bigger than Trayvon how bereaved mother Sybrina Fulton fought back</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=It is so much bigger than Trayvon how bereaved mother Sybrina Fulton fought back&url=http://jel.ink/2021/02/11/2021-2-11--It-is-so-much-bigger-than-Trayvon-how-bereaved-mother-Sybrina-Fulton-fought-back/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/9262c987597550ee28a6102c94e8912f1e9930e1/0_0_3008_1805/master/3008.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ab98d462b9250fc2f3d2f779a0205c23" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11--It-s-as-if-there-s-no-Covid-Nepal-defies-pandemic-amid-a-broken-economy/">It s as if there s no Covid Nepal defies pandemic amid a broken economy</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=It s as if there s no Covid Nepal defies pandemic amid a broken economy&url=http://jel.ink/2021/02/11/2021-2-11--It-s-as-if-there-s-no-Covid-Nepal-defies-pandemic-amid-a-broken-economy/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/7114f1efff076154226029b942c1ae82ac4b8b12/0_334_6720_4032/master/6720.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=33c46d77e930d5a5a7ca34866e972571" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Biden-policies-the-same-as-Trumpism-says-Iran-s-only-presidential-candidate/">Biden policies the same as Trumpism says Iran s only presidential candidate</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Biden policies the same as Trumpism says Iran s only presidential candidate&url=http://jel.ink/2021/02/11/2021-2-11-Biden-policies-the-same-as-Trumpism-says-Iran-s-only-presidential-candidate/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/ea217521ad85282e0bd45aefced53c1fe12bc399/0_236_3540_2124/master/3540.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8225394dd10e3d788b9552ab64d0b45b" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Greek-students-at-the-barricades-in-dispute-over-education-bill/">Greek students at the barricades in dispute over education bill</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Greek students at the barricades in dispute over education bill&url=http://jel.ink/2021/02/11/2021-2-11-Greek-students-at-the-barricades-in-dispute-over-education-bill/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/5e6bed60c7078b0813a2de90c227bfa1826ed6b8/0_0_6245_4163/master/6245.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=ccfd51e5e68ccaac5721263650336a51" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-London-s-Chinatown-gets-ready-for-the-year-of-the-ox-in-pictures/">London s Chinatown gets ready for the year of the ox in pictures</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=London s Chinatown gets ready for the year of the ox in pictures&url=http://jel.ink/2021/02/11/2021-2-11-London-s-Chinatown-gets-ready-for-the-year-of-the-ox-in-pictures/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/c7e71fba91f18a48b53690952aa811f8ad30f635/0_176_3500_2100/master/3500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=a33ecf74ed23fecd016eaaf5b0cb1055" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-One-big-lesson-of-the-pandemic-spads-are-as-important-as-the-ministers-they-serve-Martin-Kettle/">One big lesson of the pandemic spads are as important as the ministers they serve Martin Kettle</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=One big lesson of the pandemic spads are as important as the ministers they serve Martin Kettle&url=http://jel.ink/2021/02/11/2021-2-11-One-big-lesson-of-the-pandemic-spads-are-as-important-as-the-ministers-they-serve-Martin-Kettle/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/7e2e411ab396be748803d48f503914e7e01c909b/0_0_3120_1872/master/3120.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=05ef57ea6035f80a2e9fd72043932c70" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Undercover-footage-at-French-pig-farm-shows-abusive-conditions/">Undercover footage at French pig farm shows abusive conditions</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Undercover footage at French pig farm shows abusive conditions&url=http://jel.ink/2021/02/11/2021-2-11-Undercover-footage-at-French-pig-farm-shows-abusive-conditions/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/aa5c39e41968800279072104cc7b245f99f57efe/125_0_2530_1518/master/2530.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ece9f28bea68bc4c0c89d51df6a95271" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11--The-sewage-is-in-plain-sight-the-majority-Black-town-fighting-a-sanitation-crisis/">The sewage is in plain sight the majority Black town fighting a sanitation crisis</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The sewage is in plain sight the majority Black town fighting a sanitation crisis&url=http://jel.ink/2021/02/11/2021-2-11--The-sewage-is-in-plain-sight-the-majority-Black-town-fighting-a-sanitation-crisis/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/37e1bd146c944c7bd2145c2f07b1c1952792511f/0_605_4032_2419/master/4032.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f8e9ba9499e2b5068ed6616754ccc716" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Colombia-to-grant-legal-status-to-Venezuelan-migrants/">Colombia to grant legal status to Venezuelan migrants</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Colombia to grant legal status to Venezuelan migrants&url=http://jel.ink/2021/02/11/2021-2-11-Colombia-to-grant-legal-status-to-Venezuelan-migrants/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/c75badfa0bc1ac9f3e0d86a9611a9c30d4ece922/0_140_3000_1801/master/3000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=65c77884cc3549184b2ec22bca6f4cf6" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Activist-Catherine-Flowers-the-poor-living-amid-sewage-is-the-final-monument-of-the-Confederacy-/">Activist Catherine Flowers the poor living amid sewage is the final monument of the Confederacy</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Activist Catherine Flowers the poor living amid sewage is the final monument of the Confederacy&url=http://jel.ink/2021/02/11/2021-2-11-Activist-Catherine-Flowers-the-poor-living-amid-sewage-is-the-final-monument-of-the-Confederacy-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/deeb91de6883154a34207ae0f3f657c5d21f16d6/0_322_4800_2880/master/4800.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fd9f8f68ff23d8654527fcc25aeefdbc" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Dozens-of-former-Republican-officials-in-talks-to-form-anti-Trump-party/">Dozens of former Republican officials in talks to form anti Trump party</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Dozens of former Republican officials in talks to form anti Trump party&url=http://jel.ink/2021/02/11/2021-2-11-Dozens-of-former-Republican-officials-in-talks-to-form-anti-Trump-party/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/cf57e7ef3706ab80bd66820da7838e086768247d/0_0_4000_2400/master/4000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4a9c303b270586ad25588745084c2c17" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Keeping-his-counsel-Biden-stays-quiet-on-Trump-impeachment-trial/">Keeping his counsel Biden stays quiet on Trump impeachment trial</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Keeping his counsel Biden stays quiet on Trump impeachment trial&url=http://jel.ink/2021/02/11/2021-2-11-Keeping-his-counsel-Biden-stays-quiet-on-Trump-impeachment-trial/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/f602d1bc96ac202ac2b8682d5283af1190d3dd7b/72_0_2072_1244/master/2072.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=777f2fbe45c1ee0fe411a2f1f3290b46" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-The-joy-of-Lawyer-Cat-is-that-it-teaches-us-nothing-it-s-just-very-funny-Imogen-West-Knights/">The joy of Lawyer Cat is that it teaches us nothing it s just very funny Imogen West Knights</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=The joy of Lawyer Cat is that it teaches us nothing it s just very funny Imogen West Knights&url=http://jel.ink/2021/02/11/2021-2-11-The-joy-of-Lawyer-Cat-is-that-it-teaches-us-nothing-it-s-just-very-funny-Imogen-West-Knights/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://i.guim.co.uk/img/media/60199d3349898289b1fd7ad5a6d91cef2120f355/0_0_1000_600/master/1000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1aae8b5080826ec2ee6222c3097d837d" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/11/2021-2-11-Covid-UK-Coronavirus-cases-deaths-and-vaccinations-today/">Covid UK Coronavirus cases deaths and vaccinations today</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The guardian <span class="mx-1">.</span> 2021/02/11</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Covid UK Coronavirus cases deaths and vaccinations today&url=http://jel.ink/2021/02/11/2021-2-11-Covid-UK-Coronavirus-cases-deaths-and-vaccinations-today/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article>  
+  
+
+
+  <nav id="page-nav" class="w-full text-center mt-8" dir="ltr">
+   <a class="extend prev" rel="prev" href="/archives/page/35/">&lt;</a><a class="page-number" href="/archives/">1</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/34/">34</a><a class="page-number" href="/archives/page/35/">35</a><span class="page-number current">36</span><a class="page-number" href="/archives/page/37/">37</a><a class="page-number" href="/archives/page/38/">38</a><a class="page-number" href="/archives/page/39/">39</a><a class="extend next" rel="next" href="/archives/page/37/">&gt;</a>
+  </nav>
+	
+  	</div>
+  	<nav class="flex bg-gray-900 py-6 mt-10">
+	<div class="w-full md:w-2/3 px-10 md:px-0 m-auto flex justify-between items-center">
+		<a class="text-white text-xl font-bold"  href="/">Jelink</a>
+		<ul class="flex">
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-facebook"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-twitter"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-linkedin"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-rss"></ion-icon></li>
+		</ul>
+	</div>
+</nav>
+
+
+
+
+   
+  </body>
+</html>

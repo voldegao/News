@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="propeller" content="3672f6e76d48dd2c5ccdd43a3a2aa9be">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jel.ink/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jel.ink/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jel.ink/images/favicon-16x16.png">
+    <link rel="manifest" href="https://jel.ink/images/site.webmanifest">
+
+    <meta name="title" content=" ">
+    <meta name="description" content="">
+    <meta name="image" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content=" ">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content=" ">
+    <meta property="twitter:description" content="">
+    <meta property="twitter:image" content="">
+
+  	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WNL90MFSH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0WNL90MFSH');
+    </script>
+	   <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+     <script>
+        $(document).ready(function(){
+          $("#btn").click(function(){
+            $("#navmob").toggle();
+          });
+        });
+      </script>
+
+	<style type="text/css">
+    #post-content img{
+      margin-bottom: 30px
+    }
+		html{
+			font-family: 'Roboto', sans-serif;
+		}
+    .montserrat{
+      font-family: 'Roboto', sans-serif;
+    }
+    span.page-number.current{
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 18px;
+      background-color: #4b5563;
+      color: white;
+      border-radius: 12%;
+      margin-left:4px;
+      margin-right:4px;
+    }
+    a.page-number {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left:4px;
+      margin-right:4px;
+    }
+    a.page-number:hover {
+        background-color: #4b5563;
+      color: white;
+      border-radius: 12%;
+    }
+    .w-100p{
+      width: 100px;
+    }
+    .h-100p{
+      height: 100px;
+    }
+    .w-min-100{
+      min-width: 100px;
+    }
+    .h-min-100{
+      min-height: 100px;
+    }
+	</style>
+  <meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Jelink" type="application/atom+xml">
+</head>	
+  <body>
+
+  	<nav class="flex flex-col bg-gray-900 py-3 md:py-5 mb-4">
+	<div class="w-full md:w-2/3 px-2 md:px-0 md:mb-4 m-auto flex justify-between items-center">
+		<a class="text-white text-2xl montserrat flex flex-col" href="/">
+      <span class="font-bold">Jelink</span> 
+      <span class="text-base">News In Brief</span>
+    </a>
+		<ul class="flex">
+			<li class="mx-2 text-white text-lg hidden md:block"><ion-icon name="logo-facebook"></ion-icon></li>
+			<li class="mx-2 text-white text-lg hidden  md:block"><ion-icon name="logo-twitter"></ion-icon></li>
+			<li class="mx-2 text-white text-lg  hidden md:block"><ion-icon name="logo-linkedin"></ion-icon></li>
+			<li class="mx-2 text-white text-lg hidden md:block"><ion-icon name="logo-rss"></ion-icon></li>
+			<li class="mx-2 text-white text-4xl md:hidden" id="btn"><ion-icon name="menu"></ion-icon></li>
+		</ul>
+	</div>
+  	<ul class="w-full md:w-2/3 px-10 md:px-0 m-auto flex-col hidden md:hidden" id="navmob">
+  		<li class="ml-6 text-xl font-medium text-white"><a href="/">Home</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/World" >World</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Politics" >Politics</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Business" class="category">Business</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/technology" class="category">Technology</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Sports" class="category">Sports</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/Science" class="category">Science</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300"><a href="/categories/health" class="category">Health</a></li>
+  		
+  	</ul>
+  	<ul class="w-full md:w-2/3 px-10 md:px-0 m-auto hidden md:flex">
+  		<li class="text-xl font-medium text-white"><a href="/">Home</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/World" >World</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Politics" >Politics</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Business" class="category">Business</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/technology" class="category">Technology</a></li>
+  		<li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Sports" class="category">Sports</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/Science" class="category">Science</a></li>
+      <li class="ml-6 text-lg font-medium text-gray-300 hover:text-white"><a href="/categories/health" class="category">Health</a></li>
+  	</ul>
+  	
+</nav>
+  	<div class="flex flex-wrap content-start w-full md:w-2/3 px-6 md:px-0 m-auto min-h-screen mt-10">
+  		
+
+<div class="flex text-xl text-gray-500 pb-4 w-full ">
+  <a href="/"> Home /  </a>
+  
+   
+   
+   
+   
+    <a class="mr-3" href="/categories/Sports"> Sports </a>
+  
+   
+  
+</div>
+
+
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.reuters.com/resources/r/?m=02&d=20210216&t=2&i=1551685706&r=LYNXMPEH1F0H2&w=800" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-Back-spasm-to-blame-for-Australian-Open-exit-Dimitrov/">Back spasm to blame for Australian Open exit Dimitrov</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Reuters <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Back spasm to blame for Australian Open exit Dimitrov&url=http://jel.ink/2021/02/16/2021-2-16-Back-spasm-to-blame-for-Australian-Open-exit-Dimitrov/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.reuters.com/resources/r/?m=02&d=20210216&t=2&i=1551680290&r=LYNXMPEH1F0EO&w=800" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-Medvedev-plays-it-safe-in-GOAT-debate-picks-Big-Three-/">Medvedev plays it safe in GOAT debate picks Big Three</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Reuters <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Medvedev plays it safe in GOAT debate picks Big Three&url=http://jel.ink/2021/02/16/2021-2-16-Medvedev-plays-it-safe-in-GOAT-debate-picks-Big-Three-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.reuters.com/resources/r/?m=02&d=20210216&t=2&i=1551691636&r=LYNXMPEH1F0LB&w=800" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-Tokyo-2020-organisers-says-new-head-needs-deep-understanding-of-gender-equality/">Tokyo 2020 organisers says new head needs deep understanding of gender equality</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Reuters <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Tokyo 2020 organisers says new head needs deep understanding of gender equality&url=http://jel.ink/2021/02/16/2021-2-16-Tokyo-2020-organisers-says-new-head-needs-deep-understanding-of-gender-equality/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.reuters.com/resources/r/?m=02&d=20210216&t=2&i=1551704151&r=LYNXMPEH1F0TF&w=800" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-Back-to-the-future-as-more-mobile-Serena-rallies-for-victory/">Back to the future as more mobile Serena rallies for victory</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Reuters <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Back to the future as more mobile Serena rallies for victory&url=http://jel.ink/2021/02/16/2021-2-16-Back-to-the-future-as-more-mobile-Serena-rallies-for-victory/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.reuters.com/resources/r/?m=02&d=20210216&t=2&i=1551705978&r=LYNXMPEH1F0V6&w=800" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-Halep-looking-to-be-a-little-less-negative-after-Melbourne-exit/">Halep looking to be a little less negative after Melbourne exit</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Reuters <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Halep looking to be a little less negative after Melbourne exit&url=http://jel.ink/2021/02/16/2021-2-16-Halep-looking-to-be-a-little-less-negative-after-Melbourne-exit/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static.reuters.com/resources/r/?m=02&d=20210216&t=2&i=1551709326&r=LYNXMPEH1F0W5&w=800" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-Serena-comes-through-Halep-test-to-reach-semi-finals/">Serena comes through Halep test to reach semi finals</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>Reuters <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Serena comes through Halep test to reach semi finals&url=http://jel.ink/2021/02/16/2021-2-16-Serena-comes-through-Halep-test-to-reach-semi-finals/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/13/multimedia/13aus-player-lockdown-sub/merlin_183658386_e6cc6c64-aa6b-4559-addf-7443ed8b578e-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-How-a-Hard-Quarantine-Benefited-a-Player-at-the-Australian-Open/">How a Hard Quarantine Benefited a Player at the Australian Open</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=How a Hard Quarantine Benefited a Player at the Australian Open&url=http://jel.ink/2021/02/16/2021-2-16-How-a-Hard-Quarantine-Benefited-a-Player-at-the-Australian-Open/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/16/world/16aus-karatsev-1/16aus-karatsev-1-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-Aslan-Karatsev-of-Russia-Continues-an-Unlikely-Run-at-Australian-Open/">Aslan Karatsev of Russia Continues an Unlikely Run at Australian Open</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Aslan Karatsev of Russia Continues an Unlikely Run at Australian Open&url=http://jel.ink/2021/02/16/2021-2-16-Aslan-Karatsev-of-Russia-Continues-an-Unlikely-Run-at-Australian-Open/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/16/sports/16aus-medvedev/16aus-medvedev-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-Daniil-Medvedev-Finds-Another-Way-of-Playing-Professional-Tennis/">Daniil Medvedev Finds Another Way of Playing Professional Tennis</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Daniil Medvedev Finds Another Way of Playing Professional Tennis&url=http://jel.ink/2021/02/16/2021-2-16-Daniil-Medvedev-Finds-Another-Way-of-Playing-Professional-Tennis/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/09/travel/09newrivergorge4/09newrivergorge4-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-Meet-America-s-63rd-National-Park/">Meet America s 63rd National Park</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Meet America s 63rd National Park&url=http://jel.ink/2021/02/16/2021-2-16-Meet-America-s-63rd-National-Park/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/16/sports/16ausopen-watch/16ausopen-watch-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/16/2021-2-16-2021-Australian-Open-What-to-Watch-on-Tuesday-Night/">2021 Australian Open What to Watch on Tuesday Night</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/16</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=2021 Australian Open What to Watch on Tuesday Night&url=http://jel.ink/2021/02/16/2021-2-16-2021-Australian-Open-What-to-Watch-on-Tuesday-Night/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/12/sports/12mlb-hof-1/12mlb-hof-1-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-For-Derek-Jeter-a-Hall-of-Fame-Induction-Without-the-Fans/">For Derek Jeter a Hall of Fame Induction Without the Fans</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=For Derek Jeter a Hall of Fame Induction Without the Fans&url=http://jel.ink/2021/02/15/2021-2-15-For-Derek-Jeter-a-Hall-of-Fame-Induction-Without-the-Fans/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/12/sports/12aus-virus/merlin_183628689_bfc0407c-14b8-4141-b883-4f82c84f4931-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Goodbye-to-Fans-at-the-Australian-Open/">Goodbye to Fans at the Australian Open</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Goodbye to Fans at the Australian Open&url=http://jel.ink/2021/02/15/2021-2-15-Goodbye-to-Fans-at-the-Australian-Open/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/14/sports/13as-upsets01/13as-upsets01-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Making-Week-2-of-a-Grand-Slam-Is-a-Leap-And-Not-Just-for-an-Extra-80-000-in-Australia-/">Making Week 2 of a Grand Slam Is a Leap And Not Just for an Extra 80 000 in Australia</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Making Week 2 of a Grand Slam Is a Leap And Not Just for an Extra 80 000 in Australia&url=http://jel.ink/2021/02/15/2021-2-15-Making-Week-2-of-a-Grand-Slam-Is-a-Leap-And-Not-Just-for-an-Extra-80-000-in-Australia-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/14/sports/14ausopen-watch01/14ausopen-watch01-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-2021-Australian-Open-What-to-Watch-on-Sunday-Night/">2021 Australian Open What to Watch on Sunday Night</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=2021 Australian Open What to Watch on Sunday Night&url=http://jel.ink/2021/02/15/2021-2-15-2021-Australian-Open-What-to-Watch-on-Sunday-Night/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/14/sports/14daytona-1/merlin_183753897_c7420825-e02a-4646-9992-75ef832ba795-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-Michael-McDowell-Wins-Daytona-500-in-a-Wild-Finish-After-a-Lengthy-Delay/">Michael McDowell Wins Daytona 500 in a Wild Finish After a Lengthy Delay</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Michael McDowell Wins Daytona 500 in a Wild Finish After a Lengthy Delay&url=http://jel.ink/2021/02/15/2021-2-15-Michael-McDowell-Wins-Daytona-500-in-a-Wild-Finish-After-a-Lengthy-Delay/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/15/sports/15hsiehWEB1/merlin_183706560_0f64bc8d-e188-4558-ac57-174a049e4f72-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/15/2021-2-15-At-35-a-Tennis-Magician-Brings-Her-Tricks-to-a-First-Quarterfinal/">At 35 a Tennis Magician Brings Her Tricks to a First Quarterfinal</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/15</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=At 35 a Tennis Magician Brings Her Tricks to a First Quarterfinal&url=http://jel.ink/2021/02/15/2021-2-15-At-35-a-Tennis-Magician-Brings-Her-Tricks-to-a-First-Quarterfinal/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/11/us/11xp-mascot/11xp-mascot-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/14/2021-2-14-Valparaiso-U-Drops-Crusader-as-Mascot-Citing-Ties-to-Hate-Groups/">Valparaiso U Drops Crusader as Mascot Citing Ties to Hate Groups</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/14</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Valparaiso U Drops Crusader as Mascot Citing Ties to Hate Groups&url=http://jel.ink/2021/02/14/2021-2-14-Valparaiso-U-Drops-Crusader-as-Mascot-Citing-Ties-to-Hate-Groups/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/11/world/11virus-briefing-australia-lockdown-tennis/11virus-briefing-australia-lockdown-tennis-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/14/2021-2-14-As-the-Australian-Open-plays-on-Victoria-officials-order-a-circuit-breaker-Covid-lockdown-/">As the Australian Open plays on Victoria officials order a circuit breaker Covid lockdown</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/14</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=As the Australian Open plays on Victoria officials order a circuit breaker Covid lockdown&url=http://jel.ink/2021/02/14/2021-2-14-As-the-Australian-Open-plays-on-Victoria-officials-order-a-circuit-breaker-Covid-lockdown-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/11/sports/11aus-djokovic-kyrgios1/merlin_183505683_5b8bbc84-2b9b-483d-89da-dc1ec2677d85-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/14/2021-2-14-Novak-Djokovic-and-Nick-Kyrgios-Trade-Shots-Off-the-Court/">Novak Djokovic and Nick Kyrgios Trade Shots Off the Court</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/14</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Novak Djokovic and Nick Kyrgios Trade Shots Off the Court&url=http://jel.ink/2021/02/14/2021-2-14-Novak-Djokovic-and-Nick-Kyrgios-Trade-Shots-Off-the-Court/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/09/fashion/weddings/00FordSabian-02/00FordSabian-02-facebookJumbo-v2.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/14/2021-2-14-A-Bad-Guy-Jumped-Out-of-Their-Wedding-Cake/">A Bad Guy Jumped Out of Their Wedding Cake</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/14</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=A Bad Guy Jumped Out of Their Wedding Cake&url=http://jel.ink/2021/02/14/2021-2-14-A-Bad-Guy-Jumped-Out-of-Their-Wedding-Cake/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/12/sports/12ausopen-watch-web-1/12ausopen-watch-web-1-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/14/2021-2-14-2021-Australian-Open-What-to-Watch-on-Friday-Night/">2021 Australian Open What to Watch on Friday Night</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/14</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=2021 Australian Open What to Watch on Friday Night&url=http://jel.ink/2021/02/14/2021-2-14-2021-Australian-Open-What-to-Watch-on-Friday-Night/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/12/sports/12nfl-wattWEB1/12nfl-wattWEB1-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/14/2021-2-14-Texans-Release-J-J-Watt-After-He-Asks-to-Leave/">Texans Release J J Watt After He Asks to Leave</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/14</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Texans Release J J Watt After He Asks to Leave&url=http://jel.ink/2021/02/14/2021-2-14-Texans-Release-J-J-Watt-After-He-Asks-to-Leave/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/13/sports/13aus-open-watch-iga/merlin_183631152_a18c612c-dbbf-42fa-80f9-a38f92db7803-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/14/2021-2-14-2021-Australian-Open-What-to-Watch-on-Saturday-Night/">2021 Australian Open What to Watch on Saturday Night</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/14</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=2021 Australian Open What to Watch on Saturday Night&url=http://jel.ink/2021/02/14/2021-2-14-2021-Australian-Open-What-to-Watch-on-Saturday-Night/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/13/sports/13nascar-truex3/13nascar-truex3-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/14/2021-2-14-One-of-Racing-s-Best-Drivers-Has-Never-Won-Daytona-What-About-This-Year-/">One of Racing s Best Drivers Has Never Won Daytona What About This Year</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/14</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=One of Racing s Best Drivers Has Never Won Daytona What About This Year&url=http://jel.ink/2021/02/14/2021-2-14-One-of-Racing-s-Best-Drivers-Has-Never-Won-Daytona-What-About-This-Year-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/12/sports/14aus-crowdessay-top/12aus-crowdessay-top-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/14/2021-2-14-Trust-Me-Sports-Without-Fans-Is-Not-Sports/">Trust Me Sports Without Fans Is Not Sports</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/14</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=Trust Me Sports Without Fans Is Not Sports&url=http://jel.ink/2021/02/14/2021-2-14-Trust-Me-Sports-Without-Fans-Is-Not-Sports/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+<article class="py-1 px-1 w-full md:w-1/2 ">
+  <div class="border rounded p-2">
+    <div class="flex w-full">
+        <figure class="w-100p h-100p w-min-100 h-min-100 mr-2 ">
+           <img src="https://static01.nyt.com/images/2021/02/14/sports/14aus-americans/14aus-americans-facebookJumbo.jpg" class="w-full h-full objet-cover rounded">
+        </figure>
+        <div class="flex flex-col">
+          <h2 class="text-xl md:text-lg leading-6 font-medium text-gray-700 montserrat"><a href="http://jel.ink/2021/02/14/2021-2-14-An-American-Made-Week-2-at-the-Australian-Open-He-Avoided-Djokovic-and-Nadal-/">An American Made Week 2 at the Australian Open He Avoided Djokovic and Nadal</a></h2>
+          <div class="flex justify-between text-sm text-gray-500 montserrat">
+            <time>The New York Times <span class="mx-1">.</span> 2021/02/14</time>
+            <div>
+              <a target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=An American Made Week 2 at the Australian Open He Avoided Djokovic and Nadal&url=http://jel.ink/2021/02/14/2021-2-14-An-American-Made-Week-2-at-the-Australian-Open-He-Avoided-Djokovic-and-Nadal-/">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+ </article> 
+  
+
+
+  <nav id="page-nav" class="w-full text-center mt-8" dir="ltr">
+   <a class="extend prev" rel="prev" href="/categories/Sports/page/2/">&lt;</a><a class="page-number" href="/categories/Sports/">1</a><a class="page-number" href="/categories/Sports/page/2/">2</a><span class="page-number current">3</span>
+  </nav>
+	
+  	</div>
+  	<nav class="flex bg-gray-900 py-6 mt-10">
+	<div class="w-full md:w-2/3 px-10 md:px-0 m-auto flex justify-between items-center">
+		<a class="text-white text-xl font-bold"  href="/">Jelink</a>
+		<ul class="flex">
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-facebook"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-twitter"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-linkedin"></ion-icon></li>
+			<li class="mx-2 text-white text-lg"><ion-icon name="logo-rss"></ion-icon></li>
+		</ul>
+	</div>
+</nav>
+
+
+
+
+   
+  </body>
+</html>
